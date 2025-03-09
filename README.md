@@ -19,22 +19,7 @@ SOL airdrops (on devnet)
 Token account operations
 Inflation and supply statistics
 
-## Project Structure
-Copysolana_blockchain_assistant/
-├── .env                        # Environment variables
-├── requirements.txt            # Dependencies
-├── main.py                     # Entry point
-├── README.md                   # Documentation
-├── app/
-│   ├── api/                    # API endpoints
-│   ├── config/                 # Configuration
-│   ├── core/                   # Agents, tasks, and crew
-│   ├── data/                   # Task parameters
-│   ├── services/               # Business logic
-│   └── utils/                  # Utility tools
-└── tests/                      # Test files
-Setup
-
+## Setup
 Clone the repository
 Create a virtual environment: python -m venv venv
 Activate the virtual environment:
