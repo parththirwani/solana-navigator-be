@@ -1,13 +1,14 @@
-﻿Solana Blockchain Assistant
+### ﻿Solana Blockchain Assistant
 A conversational AI interface for interacting with the Solana blockchain, built with CrewAI.
-Features
+
+## Features
 
 Natural language processing of blockchain queries
 Support for multiple Solana blockchain operations
 Conversation memory for contextual responses
 RESTful API for integration with other applications
 
-Supported Blockchain Operations
+## Supported Blockchain Operations
 
 Account information retrieval
 Contract metadata fetching
@@ -18,7 +19,7 @@ SOL airdrops (on devnet)
 Token account operations
 Inflation and supply statistics
 
-Project Structure
+## Project Structure
 Copysolana_blockchain_assistant/
 ├── .env                        # Environment variables
 ├── requirements.txt            # Dependencies
@@ -46,7 +47,7 @@ Install dependencies: pip install -r requirements.txt
 Copy .env.example to .env and add your API keys
 Run the application: python main.py
 
-API Usage
+## API Usage
 The main endpoint is /query which accepts POST requests with a JSON body:
 jsonCopy{
   "query": "What is the balance of address dv1ZAGvdsz5hHLwWXsVnM94hWf1pjbKVau1QVkaMJ92"
@@ -62,7 +63,7 @@ jsonCopy{
     "params": ["dv1ZAGvdsz5hHLwWXsVnM94hWf1pjbKVau1QVkaMJ92"]
   }
 }
-Prerequisites
+## Prerequisites
 
 Python 3.8+
 Gemini API key (or OpenAI)
